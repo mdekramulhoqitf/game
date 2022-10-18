@@ -1,0 +1,201 @@
+.note {
+  color: #555;
+  background: #ecf0f3;
+  box-shadow: 10px 10px 15px #cbced1, -10px -10px 15px white;
+}
+
+/* =========================================== */
+
+.game_box {
+  border-radius: 20px;
+  background: #ecf0f3;
+  box-shadow: 10px 10px 15px #cbced1, -10px -10px 15px white;
+  width: 1000px;
+  padding: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+.start_input {
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.start_input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.error {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  filter: drop-shadow(6px 6px 4px green);
+}
+.start_btn {
+  cursor: pointer;
+  margin-left: 300px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  font-size: 32px;
+  font-weight: 800;
+  border: 0;
+  width: 400px;
+  padding: 10px 10px;
+  color: #ffff;
+  background-color: #7041d3;
+}
+
+/* ========================= */
+.playeroneheader {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  display: none;
+}
+
+.playerone_input {
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
+  border-radius: 30px;
+  display: none;
+}
+.playerone_input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.playeroneerror {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  filter: drop-shadow(6px 6px 4px green);
+}
+.playerone_btn {
+  cursor: pointer;
+  margin-left: 300px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  font-size: 32px;
+  font-weight: 800;
+  border: 0;
+  width: 400px;
+  padding: 10px 10px;
+  color: #ffff;
+  background-color: #7041d3;
+  display: none;
+}
+
+/* ================================= */
+
+.playertwoheader {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  display: none;
+}
+
+.playertwo_input {
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
+  border-radius: 30px;
+  display: none;
+}
+.playertwo_input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.playertwoerror {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  filter: drop-shadow(6px 6px 4px green);
+  display: none;
+}
+.playertwo_btn {
+  cursor: pointer;
+  margin-left: 300px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  font-size: 32px;
+  font-weight: 800;
+  border: 0;
+  width: 400px;
+  padding: 10px 10px;
+  color: #ffff;
+  background-color: #7041d3;
+  display: none;
+}
+
+/* ========================== */
+
+.playerthreeheader {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  display: none;
+}
+
+.playerthree_input {
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
+  border-radius: 30px;
+  display: none;
+}
+.playerthree_input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.playerthreeerror {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  filter: drop-shadow(6px 6px 4px green);
+  display: none;
+}
+.playerthree_btn {
+  cursor: pointer;
+  margin-left: 300px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  font-size: 32px;
+  font-weight: 800;
+  border: 0;
+  width: 400px;
+  padding: 10px 10px;
+  color: #ffff;
+  background-color: #7041d3;
+  display: none;
+}
+
+.result {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  filter: drop-shadow(6px 6px 4px rgb(49, 0, 128));
+}
