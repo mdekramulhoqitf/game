@@ -88,7 +88,7 @@ playerthree_btn.addEventListener("click", function () {
   if (playertwo_input.value == playerone_input.value) {
     console.log("mile geche");
   } else {
-    playerone_input.innerHTML = "Mile geche ";
+    playerone_input.innerHTML = " Winner ";
     count--;
     console.log(count);
     if (count == 0) {
