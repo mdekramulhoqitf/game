@@ -34,6 +34,7 @@ start_btn.addEventListener("click", function () {
     playeroneheader.style.display = "block";
     playerone_input.style.display = "block";
     playerone_btn.style.display = "block";
+    playeroneheader.innerHTML = "Player - One (" + start_input.value + ")";
   }
 });
 
@@ -46,12 +47,12 @@ playerone_btn.addEventListener("click", function () {
     if (playerone_input.value - 7) {
       playerone_btn.style.display = "none";
       playeroneheader.style.display = "none";
-      playeroneheader.innerHTML = "none" + input.value;
       playertwo_input.style.display = "block";
       playertwo_btn.style.display = "block";
       playerone_input.style.display = "none";
       playertwo_btn.style.display = "block";
       playertwoheader.style.display = "block";
+      playertwoheader.innerHTML = "Player - Two";
     } else {
       console.log("Please type only Number");
       playeroneerroror.style.display = "none";
@@ -66,13 +67,11 @@ playertwo_btn.addEventListener("click", function () {
   } else {
     if (playerone_input.value - 7) {
       playerone_btn.style.display = "none";
-      playeroneheader.style.display = "none";
+      playertwoheader.style.display = "none";
       playertwo_input.style.display = "none";
       playertwo_btn.style.display = "none";
       playerone_input.style.display = "none";
       playertwo_btn.style.display = "none";
-      playertwoheader.style.display = "none" + input.value;
-
       playerthreeheader.style.display = "block";
       playerthree_input.style.display = "block";
       playerthree_btn.style.display = "block";
@@ -87,8 +86,12 @@ playertwo_btn.addEventListener("click", function () {
 playerthree_btn.addEventListener("click", function () {
   if (playertwo_input.value == playerone_input.value) {
     console.log("mile geche");
+    result.innerHTML = "Mile geche";
+    playerthreeheader.style.display = "none";
+    playerthree_input.style.display = "none";
+    playerthree_btn.style.display = "none";
+    playerthreeerror.style.display = "none";
   } else {
-    playerone_input.innerHTML = " Winner ";
     count--;
     console.log(count);
     if (count == 0) {
